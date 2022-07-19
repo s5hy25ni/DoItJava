@@ -7,5 +7,6 @@ public class CustomerTest2 {
 		  customerKim.setCustomerName("김유신");
 		  customerKim.bonusPoint = 10000;
 		  System.out.println(customerKim.showCustomerInfo());
+		 Customer vd = new VIPCustomer();
 	 }
 }
